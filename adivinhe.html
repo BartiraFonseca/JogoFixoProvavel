@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lange = "pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>FIXO OU PROVÁVEL</title>
+    <script src = "logicadojogo.js" defer></script>
+    <link rel="stylesheet" href = "estilo.css">
+
+</head>
+
+<body>
+
+    <div id = "cabecalho">
+    </br>
+        <h1><center>JOGO FIXO OU PROVÁVEL</center></h1>
+    </br>        
+    </div>
+
+    <div id = "links" >
+        <center>
+            <h2>ADIVINHE O NÚMERO:</h2>
+            ELE TEM 4 DÍGITOS DE 0 A 9 </br>
+            OS DÍGITOS SÃO DIFERENTES ENTRE SI.</br>
+            NÚMERO INVÁLIDO = 7778, 57892...</br
+        </center>
+    </div>
+    
+    <center>
+    <img src = "interrogacao.png" height="100"/>
+
+    <form id = "RespostaUsuario">
+
+    <input type="text" name="numero" class="palpite" id = "palpite"/>
+    <button id = "Enviar">ENVIAR PALPITE</button> 
+
+    </form>
+
+    <br/>
+
+    <table id = "tabela-Resultado" border = "1" cellpadding = "5" cellspacing = "2">
+        <thead>
+            <tr bgcolor = "black">
+                <th>PALPITE</th>
+                <th>FIXOS</th>
+                <th>PROVÁVEIS</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+        </tbody>                
+    </table>
+    </center>
+
+</body>
+</html>
